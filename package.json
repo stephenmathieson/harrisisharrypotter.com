@@ -1,0 +1,52 @@
+{
+  "name": "harris-is-harry-potter",
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "postbuild": "cp _redirects dist/",
+    "fmt": "prettier --write *.{json.md} 'src/**/*.{css,js}'",
+    "lint": "eslint 'src/**/*.js'",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
+    "modern-normalize": "^0.5.0",
+    "typed.js": "^2.0.9"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 9
+    },
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{css,md,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

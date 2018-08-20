@@ -1,0 +1,4 @@
+# Redirect default Netlify subdomain to primary domain
+https://harrisisharrypotter.netlify.com/* https://www.harrisisharrypotter.com/:splat 301!
+# Redirect non-www to www
+https://harrisisharrypotter.com/* https://www.harrisisharrypotter.com/:splat 301!
