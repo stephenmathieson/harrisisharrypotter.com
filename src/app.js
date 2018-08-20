@@ -16,7 +16,8 @@ new Typed('.Proof', {
     'Harris used to live in a closet in his uncle’s house.',
     'Harris went to Hogwarts School of Witchcraft and Wizardry for his undergrad.',
     'Harris’ best friends are named Ron and Hermione.',
-    'Harris spelled backwards is Harry Potter.'
+    'Harris spelled backwards is Harry Potter.',
+    'Both Harris and Harry only wear eyeglasses for fashion purposes.'
   ],
   typeSpeed: 40,
   shuffle: true,
