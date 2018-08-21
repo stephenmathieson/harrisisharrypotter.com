@@ -29,6 +29,6 @@ new Typed('.Proof', {
 
 new Konami(() => {
   const harris = document.querySelector('.Harris')
-  harris.classList.add('Potter')
-  setTimeout(() => harris.classList.remove('Potter'), 5e3)
+  harris.classList.add('Harris--show')
+  setTimeout(() => harris.classList.remove('Harris--show'), 5e3)
 })
