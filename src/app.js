@@ -1,4 +1,6 @@
 const Typed = require('typed.js')
+const Konami = require('konami')
+const harrisImage = require('./harris-potter.png')
 
 new Typed('.Proof', {
   strings: [
@@ -24,4 +26,25 @@ new Typed('.Proof', {
   showCursor: false,
   smartBackspace: true,
   loop: true
+})
+
+new Konami(() => {
+  const harris = document.querySelector('.Harris')
+
+  harris.innerHTML = `
+    <img 
+      src='${harrisImage}' 
+      alt='Harris is Harry Potter' 
+    />
+  `
+
+  harris.classList.add('Harris--show')
+  setTimeout(() => {
+    // Empty the div
+    while (harris.firstChild) {
+      harris.removeChild(harris.firstChild)
+    }
+
+    harris.classList.remove('Harris--show')
+  }, 5000)
 })

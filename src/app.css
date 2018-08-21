@@ -15,9 +15,6 @@
   font-size: 32px;
 }
 
-.Proof {
-}
-
 .Footer {
   position: absolute;
   bottom: 10px;
@@ -36,4 +33,31 @@
   text-decoration: none;
   font-weight: 400;
   color: inherit;
+}
+
+.Harris {
+  display: none;
+  position: absolute;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation: harrypotter 5s linear infinite;
+}
+
+.Harris--show {
+  display: block;
+}
+
+@keyframes harrypotter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
