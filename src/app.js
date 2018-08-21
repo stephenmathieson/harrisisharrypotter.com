@@ -1,4 +1,5 @@
 const Typed = require('typed.js')
+const Konami = require('konami')
 
 new Typed('.Proof', {
   strings: [
@@ -24,4 +25,10 @@ new Typed('.Proof', {
   showCursor: false,
   smartBackspace: true,
   loop: true
+})
+
+new Konami(() => {
+  const harris = document.querySelector('.Harris')
+  harris.classList.add('Potter')
+  setTimeout(() => harris.classList.remove('Potter'), 5e3)
 })
