@@ -61,3 +61,11 @@
     transform: rotate(360deg);
   }
 }
+
+.Jerky {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+}
