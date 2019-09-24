@@ -13,7 +13,7 @@ new Typed('.Proof', {
     'Harris dislikes Voldemort a lot.',
     'Harris has the same middle name as Harry Potter.',
     'Harris is really good at that game they play where you fly on a broom and hit a ball with magic and stuff.',
-    'Harry Potter is dating a girl named Lucy.',
+    'Harry Potter is engaged to a woman named Lucy.',
     'Harry Potter was born in the same hospital as Harris.',
     'Harris used to live in a closet in his uncle’s house.',
     'Harris went to Hogwarts School of Witchcraft and Wizardry for his undergrad.',
