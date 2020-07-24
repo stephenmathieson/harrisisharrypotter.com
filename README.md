@@ -1,3 +1,12 @@
+<div align="center">
+  <br>
+  <br>
+  <p align="center">Huge thanks to <a href="https://github.com/chriscm2006">@chriscm2006</a> for sponsoring this project!
+  </p>
+  <br>
+  <br>
+</div>
+
 # harrisisharrypotter.com
 
 Proof that Harris is actually Harry Potter.
