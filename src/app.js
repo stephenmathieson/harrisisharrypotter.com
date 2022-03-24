@@ -19,7 +19,8 @@ new Typed('.Proof', {
     'Harris went to Hogwarts School of Witchcraft and Wizardry for his undergrad.',
     'Harris’ best friends are named Ron and Hermione.',
     'Harris spelled backwards is Harry Potter.',
-    'Both Harris and Harry only wear eyeglasses for fashion purposes.'
+    'Both Harris and Harry only wear eyeglasses for fashion purposes.',
+    'Harris dislikes Walnut wands, they always break.'
   ],
   typeSpeed: 40,
   shuffle: true,
