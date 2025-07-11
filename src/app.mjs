@@ -2,7 +2,15 @@ import Typed from "typed.js";
 import Konami from "konami";
 import harrisImage from "./harris-potter.png";
 
-new Typed(".Proof", {
+// Add a class for letting the tests know we've bootstrapped the app.
+document.documentElement.classList.add("-bootstrapped");
+
+const proof = document.querySelector(".Proof");
+if (!proof) {
+  throw new Error("Proof element not found");
+}
+
+new Typed(proof, {
   strings: [
     "When Harris dressed as Steve Jobs, everyone could really tell that he was Harry Potter.",
     "When you <code>/giphy harris &lt;keyword&gt;</code>, a gif of Harry Potter usually shows up.",
