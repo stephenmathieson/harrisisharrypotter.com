@@ -2,8 +2,8 @@
   "name": "harris-is-harry-potter",
   "private": true,
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "postbuild": "cp _redirects dist/",
     "fmt": "prettier --write *.{json.md} 'src/**/*.{css,js}'",
     "lint": "eslint 'src/**/*.js'"
