@@ -1,10 +1,10 @@
 {
-  "name": "harris-is-harry-potter",
+  "name": "harrisisharrypotter.com",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "dev": "vite",
+    "build": "vite build",
     "postbuild": "cp _redirects dist/",
     "fmt": "prettier --write .",
     "lint": "eslint .",
@@ -22,7 +22,7 @@
     "globals": "^16.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
-    "parcel-bundler": "^1.9.7",
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+    "vite": "^6.3.5"
   }
 }
