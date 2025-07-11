@@ -18,7 +18,7 @@ Do this:
 ```
 $ yarn
 $ yarn dev
-$ open http://localhost:1234
+$ open http://localhost:5173/
 ```
 
 ## Deployment
