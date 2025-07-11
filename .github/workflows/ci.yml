@@ -22,6 +22,7 @@ jobs:
         node-version-file: .nvmrc
         cache: 'npm'
     - run: npm ci
+    - run: npx playwright install --with-deps
     - run: npm run build
     - run: npm run preview &
     - run: npm test
