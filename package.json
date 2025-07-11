@@ -5,53 +5,23 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "postbuild": "cp _redirects dist/",
-    "fmt": "prettier --write *.{json.md} 'src/**/*.{css,js}'",
-    "lint": "eslint 'src/**/*.js'"
-  },
-  "devDependencies": {
-    "eslint": "^6.4.0",
-    "eslint-config-prettier": "^6.3.0",
-    "parcel-bundler": "^1.9.7",
-    "prettier": "^1.14.2"
+    "fmt": "prettier --write .",
+    "lint": "eslint .",
+    "prepare": "husky",
+    "precommit": "lint-staged"
   },
   "dependencies": {
-    "husky": "^3.0.5",
     "konami": "^1.6.2",
-    "lint-staged": "^9.3.0",
     "modern-normalize": "^0.5.0",
     "typed.js": "^2.0.11"
   },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "node": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 9
-    },
-    "extends": [
-      "eslint:recommended",
-      "prettier"
-    ]
-  },
-  "prettier": {
-    "singleQuote": true,
-    "semi": false
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write",
-      "git add"
-    ],
-    "*.{css,md,json}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^3.6.2"
   }
 }
