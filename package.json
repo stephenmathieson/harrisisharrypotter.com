@@ -1,6 +1,7 @@
 {
   "name": "harris-is-harry-potter",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",

@@ -1,6 +1,7 @@
-const Typed = require('typed.js')
-const Konami = require('konami')
-const harrisImage = require('./harris-potter.png')
+
+import Typed from 'typed.js'
+import Konami from 'konami'
+import harrisImage from './harris-potter.png'
 
 new Typed('.Proof', {
   strings: [
