@@ -25,4 +25,4 @@ jobs:
     - run: npx playwright install --with-deps
     - run: npm run build
     - run: npm run preview &
-    - run: npm test
+    - run: npm test -- --addr=localhost:4173
