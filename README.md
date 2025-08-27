@@ -9,6 +9,8 @@
 
 # harrisisharrypotter.com
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a4432bee-f31d-4adf-b54b-781dd65ccdf8/deploy-status)](https://app.netlify.com/projects/harrisisharrypotter/deploys)
+
 Proof that Harris is actually Harry Potter.
 
 ## Development
